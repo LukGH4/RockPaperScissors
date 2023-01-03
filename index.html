@@ -5,24 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <button class="rock">Rock Choice</button>
-    <button class="paper">Paper Choice</button>
-    <button class="scissors">Scissors Choice</button>
-    <div id="results">
-        <h3>Results:</h3>
-        <div class="player">
-            Player Score: 0
+    <div class="header-container">
+        <div class="header-title">Rock | Paper | Scissors</div>
+    </div>
+    <div class="body-container">
+        <div class="body-buttons">
+            <div class='rock'><img src="./images/rock.png"></div>
+            <div class='paper'><img src="./images/paper.png"></div>
+            <div class='scissors'><img src="./images/scissors.png"></div>
         </div>
-        <div class="computer">
-            Computer Score: 0
+        <div id="results">
+            <h3>Results:</h3>
+            <div class="player">
+                Player Score: 0
+            </div>
+            <div class="computer">
+                Computer Score: 0
+            </div>
+            <div class="ties">
+                Ties: 0
+            </div>
+            <div class="final-result">Final: </div>
         </div>
-        <div class="ties">
-            Ties: 0
-        </div>
-        <div class="final-result">Final: </div>
-        </div>
+    </div>
     </div>
     <script src="./script.js" delay></script>
 </body>
