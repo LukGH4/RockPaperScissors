@@ -2,13 +2,16 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+    overscroll-behavior: none;
+}
 .header-container {
     display: flex;
     justify-content: center;
     background-color: aqua;
     padding-top: clamp(10px, 20vw, 20px);
     padding-bottom: clamp(10px, 20vw, 20px);
+
 }
 
 .header-container .header-title {
