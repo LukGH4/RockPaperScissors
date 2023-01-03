@@ -9,7 +9,11 @@
 </head>
 <body>
     <div class="header-container">
-        <div class="header-title">Rock | Paper | Scissors</div>
+        <div class="header-title">
+            <div>Rock</div>
+            <div>Paper</div>
+            <div>Scissors</div>
+        </div>
     </div>
     <div class="body-container">
         <div class="body-buttons">
@@ -17,8 +21,13 @@
             <div class='paper'><img src="./images/paper.png"></div>
             <div class='scissors'><img src="./images/scissors.png"></div>
         </div>
+        <div id="choices">
+            <div class="player-choice"></div>
+            <div class="win-side"></div>
+            <div class="computer-choice"></div>
+        </div>
         <div id="results">
-            <h3>Results:</h3>
+            <div class="results-title">Results:</div>
             <div class="player">
                 Player Score: 0
             </div>
@@ -31,6 +40,8 @@
             <div class="final-result">Final: </div>
         </div>
     </div>
+    <div class="footer-container">
+        <div class="footer-text">Luke Hammond</div>
     </div>
     <script src="./script.js" delay></script>
 </body>
